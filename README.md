@@ -81,9 +81,6 @@ python -m pip install -r requirements.txt
 python music_transfer_app.py
 ```
 
-На Windows можно просто **дважды кликнуть** на файл `music_transfer_app.py` — если Python установлен правильно, окно откроется само.
-
-
 ---
 
 ## 🖥 Интерфейс
