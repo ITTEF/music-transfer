@@ -1,0 +1,34 @@
+# Авторизация и прогресс — не хранить в репозитории
+browser.json
+oauth.json
+progress.txt
+tracks.csv
+tracks.xlsx
+tracks.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
