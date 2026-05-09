@@ -10,12 +10,79 @@
 
 ## 📦 Установка
 
+### Шаг 1 — Установи Python
+
+Скачай и установи Python **3.8 или новее** с официального сайта:  
+👉 [python.org/downloads](https://www.python.org/downloads/)
+
+> ⚠️ При установке на Windows обязательно поставь галочку **«Add Python to PATH»**
+
+Проверь установку в терминале:
+```bash
+python --version
+```
+
+---
+
+### Шаг 2 — Скачай проект
+
+**Вариант А — через ZIP архив (без git):**
+
+1. На странице репозитория нажми зелёную кнопку **`Code`**
+2. Выбери **`Download ZIP`**
+3. Распакуй архив в любую удобную папку, например `C:\music-transfer\`
+
+**Вариант Б — через git:**
+
 ```bash
 git clone https://github.com/ВАШ_НИК/music-transfer.git
 cd music-transfer
+```
+
+---
+
+### Шаг 3 — Открой терминал в папке с проектом
+
+**Windows:**
+- Открой папку с файлами в Проводнике
+- Нажми на адресную строку, введи `cmd` и нажми **Enter**
+
+Или через PowerShell:
+```
+Win + R → powershell → Enter
+cd C:\путь\до\папки\music-transfer
+```
+
+**macOS / Linux:**
+```bash
+cd /путь/до/папки/music-transfer
+```
+
+---
+
+### Шаг 4 — Установи зависимости
+
+```bash
 pip install -r requirements.txt
+```
+
+Если команда не найдена, попробуй:
+```bash
+pip3 install -r requirements.txt
+# или
+python -m pip install -r requirements.txt
+```
+
+---
+
+### Шаг 5 — Запусти приложение
+
+```bash
 python music_transfer_app.py
 ```
+
+На Windows можно просто **дважды кликнуть** на файл `music_transfer_app.py` — если Python установлен правильно, окно откроется само.
+
 
 ---
 
